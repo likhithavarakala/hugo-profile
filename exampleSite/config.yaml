@@ -126,10 +126,10 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: /images/hero.svg
+    title: "Likhitha."
+    subtitle: "I transform raw data into meaningful stories and insights."
+    content:  "Welcome to my digital portfolio, showcasing my journey in mastering data analysis, refining my skills as an analyst, and making strides in the tech world."
+    image: /images/LIK.jpeg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
