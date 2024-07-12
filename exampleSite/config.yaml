@@ -128,7 +128,7 @@ params:
     intro: "Hi, my name is"
     title: "Likhitha."
     subtitle: "I transform raw data into meaningful stories and insights."
-    content:  "Welcome to my digital portfolio, showcasing my journey in mastering data analysis, refining my skills as an analyst, and making strides in the tech world."
+    content: "Welcome to my digital portfolio, showcasing my journey in mastering data analysis, refining my skills as an analyst, and making strides in the tech world."
     image: /images/LIK.jpeg
     bottomImage:
       enable: true
@@ -184,6 +184,9 @@ params:
           enable: true
           name: "View the project"
           url: "https://example.com"
+        info:
+          enable: true
+          content: I worked as a software developer for more than one year in Amazon.
         content: |
           - Optimized database procedures using SSMS and developed comprehensive SSRS and Power BI reports, improving data accuracy by 25% and boosting database performance by 50%.
           - Increased report generation speed by 35% through optimized Excel table loading with SSIS packages, enabling faster strategic decisions.
