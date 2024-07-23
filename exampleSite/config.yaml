@@ -306,7 +306,7 @@ params:
     items:
       - title: Hugo Profile
         content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/Picture1.png
+        image: /images/Picture1.png
         featured:
           name: Demo
           link: https://hugo-profile.netlify.app
@@ -324,7 +324,7 @@ params:
 
       - title: Image Converter
         content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/Picture5.jpg
+        image: /images/Picture5.jpg
         featured:
           name: Demo
           link: https://django-converter.herokuapp.com
