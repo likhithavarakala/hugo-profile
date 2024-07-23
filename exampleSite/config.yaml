@@ -126,27 +126,25 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Likhitha."
-    subtitle: "I transform raw data into meaningful stories and insights."
-    content: "Welcome to my digital portfolio, showcasing my journey in mastering data analysis, refining my skills as an analyst, and making strides in the tech world."
-    image: /images/LIK.jpeg
+    title: "Isabella."
+    subtitle: "I build things for the web"
+    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+    image: /images/hero.svg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/13zCL5r27M2FcDIlUeeSIfrTW57VOkzQL/view?usp=sharing"
+      url: "#"
       download: true
       newPage: false
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://github.com/likhithavarakala
-        - icon: fab fa-linkedin
-          url: https://github.com/likhithavarakala
-        - icon: fas fa-chart-bar
-          url: https://public.tableau.com/app/profile/likhitha.varakala/vizzes
+          url: https://example.com
+        - icon: fab fa-x-twitter
+          url: https://example.com
       customIcons:
         - icon: /fav.png
           url: "https://example.com"
@@ -155,49 +153,41 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/Analytics_amp_Data_Science.gif"
+    image: "/images/me.png"
     content: |-
-      I am an ambitious individual pursuing a Master of Science in Analytics at Northeastern University, specializing in data visualization, machine learning, and predictive analytics. During my tenure as a Programmer Analyst at Cognizant Technology Solutions, I optimized database procedures and developed comprehensive reports, significantly improving data accuracy and performance.
+      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
 
-      My experience as a Data Analyst has enhanced my skills in ETL pipelines, interactive dashboards, and data-driven decision-making. I am dedicated to continuously improving my skills and applying my knowledge in collaborative environments. I seek opportunities that will expand my network and bridge the gap between technology and innovation.
+      I am currently working on a project that will be used to help people find the best way to get around the city.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "SQL"
-        - "Ms Excel"
-        - "Python"
-        - "PowerBI"
-        - "Tableau"
-        - "Machine Learning"
+        - "HTML"
+        - "CSS"
+        - "JavaScript"
+        - "React"
+        - "Node"
+        - "Express"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Programmer Analyst"
-        company: "Cognizant Technology Solutions"
-        companyUrl: "https://www.cognizant.com/us/en"
-        date: "August 2021 - July 2022"
+      - job: "Senior Software Developer"
+        company: "Facebook"
+        companyUrl: "https://example.com"
+        date: "Jan 2022 - present"
         featuredLink:
           enable: true
           name: "View the project"
           url: "https://example.com"
-        info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
-        content: |
-          - Optimized database procedures using SSMS and developed comprehensive SSRS and Power BI reports, improving data accuracy by 25% and boosting database performance by 50%.
-          - Increased report generation speed by 35% through optimized Excel table loading with SSIS packages, enabling faster strategic decisions.
-          - Ensured robust data integration and operational consistency for patient and medicine inventory data by validating and deploying SSIS packages across four environments (INT, CRT, DEV, and PRD), utilizing ServiceNow for streamlined package deployment.
-          - Implemented GIT for version control, significantly streamlining team collaboration and enhancing project workflow efficiency by 30%.
-"
+        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
-      - job: "Intern"
-        company: "Cognizant Technology Solutions"
-        companyUrl: "https://www.cognizant.com/us/en"
-        date: "March 2021 - Aug 2021"
+      - job: "Software Developer"
+        company: "Amazon"
+        companyUrl: "https://example.com"
+        date: "Sep 2020 - Dec 2021"
         featuredLink:
           enable: true
           url: "https://example.com"
@@ -205,24 +195,44 @@ params:
           enable: true
           content: I worked as a software developer for more than one year in Amazon.
         content: |
-          - Led web application development using Java, SQL, and Spring, optimizing database design with normalization and indexing for a 30% efficiency boost.
-          - Enhanced database reliability by implementing redundant data storage and robust error handling, increasing reliability.
-          - Improved application responsiveness by optimizing query performance and refining connection management, achieving a 20% performance boost.
+          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
 
+          - Lead backend developer for a product.
+          - Created a frontend design for a product.
 
-      - job: "Data Analyst"
-        company: "Ikkat Hub"
-        companyUrl: "https://www.ikkathub.com//"
-        date: "May 2020 - Dec 2020"
+      - job: "Junior Software Developer"
+        company: "Apple"
+        companyUrl: "https://example.com"
+        date: "Jan 2020 - Aug 2020"
         info:
           enable: false
         featuredLink:
           enable: true
           url: "https://example.com"
         content: |
-          - Optimized data accuracy and integration by developing ETL pipelines using Python and SQL, reducing data transformation errors by 25%.
-          - Enhanced decision-making by designing interactive Power BI dashboards that visualize key metrics, improving insight into customer demographics.
-          - Used Pivot Tables, VLOOKUP, and Power Query in Excel to manage and cleanse large datasets, generating actionable insights for strategic decisions.
+          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+          - Lead backend developer for a product.
+          - Created a frontend design for a product.
+
+      - job: "UI/UX Designer"
+        company: "Netflix"
+        companyUrl: "https://example.com"
+        date: "June 2017 - Nov 2019"
+        featuredLink:
+          enable: true
+          url: "https://example.com"
+        content: |
+          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+          - Lead backend developer for a product.
+          - Created a frontend design for a product.
+
+      - job: "Product Designer"
+        company: "Google"
+        companyUrl: "https://example.com"
+        date: "Feb 2016 - Mar 2017"
+        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
   # Education
   education:
@@ -230,38 +240,42 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Science in Analytics"
+      - title: "Master of Business Administration"
         school:
-          name: "Northeastern University"
-          url: "https://northeastern.edu"
-        date: "2022 - 2024"
-        GPA: "3.8 out of 4.0"
+          name: "University of California, Berkeley"
+          url: "https://example.org"
+        date: "2013 - 2015"
+        GPA: "3.8 out of 5.0"
         content: |-
-          Coursework
-            - Database Management & Big Data, Data Mining, Data Warehousing & SQL, Data Visualization, Machine Learning, Cloud Analytics, Predictive Analytics.
-
-      - title: "Bachelor of Technolgy in Computer Science"
+          Extracurricular Activities
+            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+      - title: "Bachelor of Science in Computer Science"
         school:
-          name: "Jawaharlal Nehru Technological University"
+          name: "Massachusetts Institute of Technology"
           url: "https://example.org"
         date: "2009 - 2013"
-        GPA: "2017 - 2021"
+        GPA: "3.9 out of 5.0"
         content: |-
-          Relevant Coursework
-             - Database Management Systems, Python Programming, Probability and Statistics, Data Structures and Algorithms, Intellectual Property.
+          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
+          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
+          - Face mask detection using a single convolutional neural network.
 
-      #  featuredLink:
-       #   enable: true
-        #  name: "My academic record"
-         # url: "https://example.com"
-     # - title: "High School"
-      #  school:
-       #   name: "Thomas Jefferson High School for Science and Technology."
-        #  url: "https://example.org"
-       # GPA: "4.2 out of 5.0"
-       # featuredLink:
-         # enable: true
-        #  url: "https://example.com"
+          Extracurricular Activities
+            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+        featuredLink:
+          enable: true
+          name: "My academic record"
+          url: "https://example.com"
+      - title: "High School"
+        school:
+          name: "Thomas Jefferson High School for Science and Technology."
+          url: "https://example.org"
+        GPA: "4.2 out of 5.0"
+        featuredLink:
+          enable: true
+          url: "https://example.com"
 
   # Achievements
   achievements:
